@@ -1,3 +1,124 @@
+/*
+    * Layout Models:
+        - Box Model
+        - Position
+        - Flexbox
+        - Grid
+
+    ! Los elementos de HTML son Rectangulos
+    ? Dos tipos de caja
+        - Block Model
+        - Inline Model
+        ? Block Model: 
+            - Ocupa todo el ancho | especio horizontal disponible | Reserva
+            - Crea una linea nueva
+            - Acepta width y height
+            - Acepta margin y padding
+            - Acepta top, right, bottom, left
+            - Acepta z-index
+            - Acepta display: block
+            - Acepta display: flex
+            - Acepta display: grid
+            
+        ? Inline Model:
+            - No tienen unidades de medida (excluye imagenes)
+            - span - a - input 
+            - Ocupan solamente el espacio del contenido!
+            - Ocupa solo el ancho del contenido
+            - No acepta width y height
+            - No acepta margin y padding
+            - No acepta top, right, bottom, left
+            - No acepta z-index
+            - Acepta display: inline
+            - Acepta display: inline-block
+            - Acepta display: inline-flex
+            - Acepta display: inline-grid
+    * Unidades de Medida:
+        - px (Pixeles de la pantalla)
+        - em (Tamaño de la fuente del elemento actual)
+        - rem (Tamaño de la fuente del elemento Body)
+        - %
+        - vw
+        - vh
+        - fr
+        - auto
+        - min-content
+        - max-content
+        - fit-content
+        - ch
+        - ex
+        - cm
+        - mm
+        - in
+        - pt
+        - pc
+        - %
+*/
+/* ! Identificación de Elementos */
+/*
+    * Elementos de bloque
+        <div> - el contenedor de división genérico.
+        <p> - para párrafos.
+        <h1>, <h2>, <h3>, <h4>, <h5>, <h6> - para encabezados, desde el más importante (h1) al menos importante (h6).
+        <ol> - para listas ordenadas.
+        <ul> - para listas no ordenadas.
+        <li> - para ítems de listas.
+        <table> - para tablas.
+        <header> - para la cabecera de una sección o página.
+        <footer> - para el pie de página.
+        <section> - para secciones de documentos.
+        <form> - para formularios.
+        <article> - define un artículo.
+        <aside> - para contenido aparte del contenido principal como barras laterales.
+        <nav> - para navegación.
+        <hr> - para una línea horizontal (aunque es un elemento de bloque, técnicamente es auto-contenido).
+
+        * Elementos de Lina (inline)
+        <span> - contenedor en línea genérico sin significado semántico.
+        <a> - para enlaces (hipervínculos).
+        <img> - para imágenes.
+        <b> - para texto en negrita.
+        <i> - para texto en itálica.
+        <u> - para subrayar texto.
+        <strong> - para dar importancia al texto, usualmente mostrado en negrita.
+        <em> - para enfatizar texto, usualmente mostrado en itálico.
+        <br> - para un salto de línea.
+        <input> - para campos de entrada de un formulario.
+        <textarea> - para área de texto en formularios.
+        <label> - para etiquetar otros elementos, típicamente elementos de formulario.
+        <button> - para botones.
+*/
+
+/* * Propiedad display: 
+    * - block (Elemento de bloque)
+    * - inline (Elemento de linea)
+    * - inline-block (Ambos. Se le puede dar medidas manteniendo el Elemento de Linea)
+    * - flex
+    * - grid
+    * - none (Desaparece)
+    - table
+    - table-cell
+    - table-row
+    - table-column
+    - table-column-group
+    - table-header-group
+    - table-footer-group
+    - table-row-group
+    - table-caption
+    - contents
+    - inherit
+    - initial
+    - unset-auto
+*/
 *{
     margin:0;
+    
+}
+h1 {
+    color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
